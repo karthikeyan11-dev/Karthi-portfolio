@@ -7,7 +7,7 @@ import HeroSection from "@/components/sections/hero";
 import Works from "@/components/sections/works";
 import Certifications from "@/components/sections/certifications";
 
-function MainPage() {
+export default function Page() {
   return (
     <>
       <main className={cn("bg-white")}>
@@ -21,5 +21,3 @@ function MainPage() {
     </>
   );
 }
-
-export default MainPage;
