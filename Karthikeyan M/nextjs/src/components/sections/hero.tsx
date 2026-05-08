@@ -10,7 +10,8 @@ import {
 } from "@/components/ui/tooltip";
 import { BlurIn, BoxReveal } from "../reveal-animations";
 import ScrollDownIcon from "../scroll-down-icon";
-import { SiGithub, SiLinkedin, SiLeetcode } from "react-icons/si";
+import { SiGithub, SiLeetcode } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 import { config } from "@/data/config";
 
 
@@ -121,7 +122,7 @@ const HeroSection = () => {
                 className="w-fit"
               >
                 <Button variant={"outline"} className="w-full md:w-auto px-4 sm:px-5 md:px-6 py-3 sm:py-4">
-                  <SiLinkedin size={20} className="sm:w-6 sm:h-6 md:w-8 md:h-8" />
+                  <FaLinkedin size={20} className="sm:w-6 sm:h-6 md:w-8 md:h-8" />
                 </Button>
               </Link>
               <Link

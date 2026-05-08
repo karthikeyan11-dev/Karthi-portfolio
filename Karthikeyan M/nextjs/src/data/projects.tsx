@@ -29,7 +29,7 @@ import {
   SiVite,
   SiNetlify,
   SiHtml5,
-  SiCss3,
+  SiCss,
   SiBootstrap,
   SiApachemaven,
   SiCplusplus,
@@ -284,7 +284,7 @@ const PROJECT_SKILLS = {
     title: "CSS3",
     bg: "black",
     fg: "white",
-    icon: <SiCss3 />,
+    icon: <SiCss />,
   },
   bootstrap: {
     title: "Bootstrap",
